@@ -1,0 +1,209 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+header{
+  background: #fcdb00;
+  color: black;
+  padding-top: 58px;
+padding-bottom: 105px;
+}
+h1, h2, h4, h5{
+  font-weight: 700;
+  color: #000;
+}
+h3{
+  font-weight: 400;
+  color: #000;
+}
+h2{
+  text-align: center;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.menu{
+
+}
+.menu__item{
+margin: 0 57px;
+margin-top: 10px;
+}
+.menu__item a{
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+
+
+}
+.menu__item a:hover{
+  color: red;
+}
+.offer{
+  margin-top: 120px;
+}
+  .offer__intro{
+    font-size: 20px;
+    color: #47493e;
+
+  }
+    .offer__title{
+      font-size: 32px;
+      margin-bottom: 20px;
+
+    }
+      .offer__text{
+        font-size: 16px;
+        margin-top: 20px;
+        color: #555555;
+        font-weight: 1.4em;
+      width: 380px;
+      }
+.icons__item a{
+  color: #000;
+  font-size: 42px;
+
+}
+.icons__item{
+  margin-right: 35px;
+}
+.icons__item a:hover{
+text-decoration: none;
+  color: #c81912;
+}
+.ipad{
+  display: block;
+  margin: 60px auto 0;
+
+}
+.title{padding-top: 100px;
+  padding-bottom: 90px;
+}
+  .title__main{
+    font-size: 32px;
+  }
+    .title__text{
+      font-size: 20px;
+      color: #474c53;
+      width: 715px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .feature__icon{
+      font-size: 50px;
+      margin-right: 35px;
+      color: #000;
+    }
+.feature__text{
+  color: #a7a7a7;
+}
+.feature{
+  margin-bottom: 72px;
+}
+.feature i:hover{
+  color: red;
+}
+#touch, #footer{
+  background: #000;
+}
+.keep{
+  padding-top: 97px;
+
+}
+  .keep__title{
+    color: #fcdb00;
+    font-weight: 700;
+    font-size: 32px;
+  }
+    .keep__text{
+      font-size: 20px;
+      color: #838383;
+      text-align: center;
+      width: 715px;
+      margin: 0 auto;
+
+    }
+    .final{
+      margin-top: 45px;
+      margin-bottom: 100px;
+    }
+.final__text{
+  color: white;
+  text-align: center;
+}
+.form{
+  text-align: center;
+  padding-top: 40px;
+}
+  .form__input{
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    width: 570px;
+      padding: 15px 25px ;
+      border: 0;
+      outline-style: none;
+
+  }
+    .form__btn{
+      font-size: 16px;
+      background: #fcdb00;
+      color: #000;
+      font-weight: bold;
+      width: 130px;
+      border-radius: 5px ;
+      padding: 15px 25px ;
+      border: 0;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+/* медиа-запросы */
+@media screen and ( max-width: 992px) {
+.logo{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+}
+.offer{
+  text-align: center;
+}
+.offer__text{
+  margin: 20px auto;
+  width: auto;
+}
+.icons{
+  justify-content: center;
+}
+.icons__item:nth-child(3){
+  margin-right: 0;
+}
+.form__input{
+  margin-right: 0px;
+  width: 100%;
+}
+.form__btn{
+  margin-top: 30px;
+  width: 100%;
+  margin-left: 0px;
+}
+.title__text{
+  width: auto;
+}
+.keep__text{
+  width: auto;
+}
+}
+@media screen and ( max-width: 576px){
+  .ipad{
+    width: 100%;
+  }
+  .menu{
+    flex-direction: column;
+  }
+  .menu__item{
+    text-align: center;
+  }
+}
